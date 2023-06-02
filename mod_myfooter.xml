@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>My Footer</name>
+    <author>Chris Vaughan</author>
+    <creationDate>5 April 2023</creationDate>
+    <copyright>Copyright (C) 2015-2023 cevsystems.co.uk</copyright>
+    <license>This extension in released under the GNU/GPL License</license>
+    <authorEmail>chris@cevsystems.co.uk</authorEmail>
+    <authorUrl>www.cevsystems.co.uk</authorUrl>
+    <version>1.0.0</version>
+    <description>This module displays a general footer module</description>
+    <updateservers>
+        <server type="extension" name="My Footer Module" priority="1"></server>
+    </updateservers>
+    <files>
+        <filename>mod_myfooter.php</filename>
+        <folder module="mod_myfooter">tmpl</folder>
+        <folder>images</folder>
+        <folder>images/icons/</folder>
+        <folder>css</folder>
+        <filename>en-GB.mod_myfooter.ini</filename>
+        <filename>index.html</filename>
+    </files>
+    <languages folder="langfiles">
+        <language tag="en-GB">en-GB.mod_myfooter.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="startyear" type="text" default="2010" size="10" label="Start_Year" description="Start_year_of_web_site" />
+                <field name="copyrighttext" type="text" default="Site Name" size="10" label="Copyright_text" description="Copyright_text_or_site_name" />         
+                <field name="custom_css_file" type="text" default="" label="Additional_css" description="Additional Custom css file"/>
+                <field name="alternative_css_file" type="text" default="" label="Alternative_css" description="Alternative css file"/>   
+            </fieldset>
+              <fieldset name="theme">
+                 <field name="color1" type="color" default="#dd6031" label="THEME_COLOR1" description="THEME_COLOR_DESC1" />
+                 <field name="color2" type="color" default="#72a1e5" label="THEME_COLOR2" description="THEME_COLOR_DESC2" />
+                 <field name="color3" type="color" default="#9883e5" label="THEME_COLOR3" description="THEME_COLOR_DESC3" />
+                 <field name="color4" type="color" default="#72a276" label="THEME_COLOR4" description="THEME_COLOR_DESC4" />
+                 <field name="color5" type="color" default="#937666" label="THEME_COLOR5" description="THEME_COLOR_DESC5" />
+                 <field name="color6" type="color" default="#ffdf64" label="THEME_COLOR6" description="THEME_COLOR_DESC6" />
+                 <field name="color7" type="color" default="#6f5e5c" label="THEME_COLOR7" description="THEME_COLOR_DESC7" />
+                 <field name="note" type="note" label="MODULE_NOTES" />
+             </fieldset>
+        </fields>
+    </config>
+
+</extension>

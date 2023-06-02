@@ -1,0 +1,492 @@
+:root {
+    --warning: #C60C30;
+    --gray10:rgb(230,230,230);
+    --gray20:rgb(204,204,204);
+    --gray30:rgb(179,179,179);
+    --gray40:rgb(153,153,153);
+    --gray50:rgb(128,128,128);
+    --gray60:rgb(102,102,102);
+    --gray70:rgb(76,76,76);
+    --gray80:rgb(51,51,51);
+    --gray90:rgb(25,25,25);
+
+}
+
+body {
+    font-family:  arial, serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+/* Icons based on extensions */
+
+a[href$='.zip'],
+a[href$='.rar'],
+a[href$='.gzip'],
+a[href$='.bzip'],
+a[href$='.ace'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -86px;
+}
+
+a[href^="callto:"] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -172px;
+}
+
+a[href$='.css'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -258px;
+}
+
+a[href$='.dmg'],
+a[href$='.app'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -344px;
+}
+
+a[href$='.doc'],
+a[href$='.rtf'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -430px;
+}
+
+a[href$='.rss'],
+a[href$='.atom'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -516px;
+}
+
+a[href$='.mp4'],
+a[href$='.avi'],
+a[href$='.mpg'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -602px;
+}
+
+a[href$='.fla'],
+a[href$='.swf'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -688px;
+}
+
+a[href$='.ical'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -774px;
+}
+
+a[href^="mailto:"] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -860px;
+}
+
+a[href$=".mov"] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -946px;
+}
+
+a[href^="msnim:"] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1032px;
+}
+
+a[href$='.mp3'],
+a[href$='.wav'],
+a[href$='.ogg'],
+a[href$='.wma'],
+a[href$='.m4a'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1118px;
+}
+
+#rt-mainbody-surround a[href$='.pdf'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1204px;
+}
+
+a[href$='.pps'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1290px;
+}
+
+a[href^="skype:"] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1376px;
+}
+
+a[href$='.torrent'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1462px;
+}
+
+a[href$='.ttf'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1548px;
+}
+
+a[href$='.txt'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1634px;
+}
+
+a[href$='.vcard'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1720px;
+}
+
+a[href$=".wmv"] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1806px;
+}
+
+a[href$='.xls'] {
+    padding-right: 20px;
+    padding-bottom: 1px;
+    background: url(../images/icons/icons-ext.png) no-repeat right -1892px;
+}
+
+@media only screen and (max-width: 768px){
+    div#ramblersheader {
+        background-image:none !important;
+    }
+}
+
+div.mymodule {
+    border-radius: 10px 10px 10px 10px;
+    padding: 0px;
+    color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+}
+
+div.mymodule > div:first-of-type {
+    padding-left:12px;
+    padding-right:12px;
+}
+
+div.mymodule.full h3 {
+    margin: 0px 0px 0px;
+    padding: 5px 12px 5px;
+    border-radius: 5px 5px 0px 0px;
+    color: #FFFFFF;
+    background: none;
+}
+
+div.mymodule.outline h3 {
+    padding: 10px;
+    border-radius: 5px 5px 0px 0px;
+    color: #FFFFFF;
+    background: none;
+}
+div.mymodule.heading h3{
+    margin: 0px 0px 0px;
+    padding: 5px 12px 5px;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    background: none;
+}
+
+
+/* set heading colours */
+div.mymodule.heading.colour1 h3 {
+    background: var(--colour1);
+}
+div.mymodule.heading.colour2 h3 {
+    background: var(--colour2);
+}
+div.mymodule.heading.colour3 h3 {
+    background: var(--colour3);
+}
+div.mymodule.heading.colour4 h3 {
+    background: var(--colour4);
+}
+div.mymodule.heading.colour5 h3 {
+    background: var(--colour5);
+}
+div.mymodule.heading.colour6 h3 {
+    background: var(--colour6);
+}
+div.mymodule.heading.colour7 h3 {
+    background: var(--colour7);
+}
+
+div.mymodule.heading.gray10 h3 {
+    background: var(--gray10);
+}
+div.mymodule.heading.gray20 h3 {
+    background: var(--gray20);
+}
+div.mymodule.heading.gray30 h3 {
+    background: var(--gray30);
+}
+div.mymodule.heading.gray40 h3 {
+    background: var(--gray40);
+}
+div.mymodule.heading.gray50 h3 {
+    background: var(--gray50);
+}
+div.mymodule.heading.gray60 h3 {
+    background: var(--gray60);
+}
+div.mymodule.heading.gray70 h3 {
+    background: var(--gray70);
+}
+div.mymodule.heading.gray80 h3 {
+    background: var(--gray80);
+}
+div.mymodule.heading.gray90 h3 {
+    background: var(--gray90);
+}
+div.mymodule.heading.warning h3 {
+    background: var(--warning);
+}
+
+/* outline set colours*/
+
+div.mymodule.outline.colour1 {
+    border-color: var(--colour1);
+}
+div.mymodule.outline.colour2 {
+    border-color: var(--colour2);
+}
+div.mymodule.outline.colour3 {
+    border-color: var(--colour3);
+}
+div.mymodule.outline.colour4 {
+    border-color: var(--colour4);
+}
+div.mymodule.outline.colour5 {
+    border-color: var(--colour5);
+}
+div.mymodule.outline.colour6 {
+    border-color: var(--colour6);
+}
+div.mymodule.outline.colour7 {
+    border-color: var(--colour7);
+}
+
+div.mymodule.outline.gray10 {
+    border-color: var(--gray10);
+}
+div.mymodule.outline.gray20 {
+    border-color: var(--gray20);
+}
+div.mymodule.outline.gray30 {
+    border-color: var(--gray30);
+}
+div.mymodule.outline.gray40 {
+    border-color: var(--gray40);
+}
+div.mymodule.outline.gray50 {
+    border-color: var(--gray50);
+}
+div.mymodule.outline.gray60 {
+    border-color: var(--gray60);
+}
+div.mymodule.outline.gray70 {
+    border-color: var(--gray70);
+}
+div.mymodule.outline.gray80 {
+    border-color: var(--gray80);
+}
+div.mymodule.outline.gray90 {
+    border-color: var(--gray90);
+}
+div.mymodule.outline.warning {
+    border-color: var(--warning);
+}
+
+div.mymodule.outline.colour1 h3 {
+    background: var(--colour1);
+}
+div.mymodule.outline.colour2 h3 {
+    background: var(--colour2);
+}
+div.mymodule.outline.colour3 h3 {
+    background: var(--colour3);
+}
+div.mymodule.outline.colour4 h3 {
+    background: var(--colour4);
+}
+div.mymodule.outline.colour5 h3 {
+    background: var(--colour5);
+}
+div.mymodule.outline.colour6 h3 {
+    background: var(--colour6);
+}
+div.mymodule.outline.colour7 h3 {
+    background: var(--colour7);
+}
+
+div.mymodule.outline.gray10 h3 {
+    background: var(--gray10);
+}
+div.mymodule.outline.gray20 h3 {
+    background: var(--gray20);
+}
+div.mymodule.outline.gray30 h3 {
+    background: var(--gray30);
+}
+div.mymodule.outline.gray40 h3 {
+    background: var(--gray40);
+}
+div.mymodule.outline.gray50 h3 {
+    background: var(--gray50);
+}
+div.mymodule.outline.gray60 h3 {
+    background: var(--gray60);
+}
+div.mymodule.outline.gray70 h3 {
+    background: var(--gray70);
+}
+div.mymodule.outline.gray80 h3 {
+    background: var(--gray80);
+}
+div.mymodule.outline.gray90 h3 {
+    background: var(--gray90);
+}
+div.mymodule.outline.warning h3 {
+    background: var(--warning);
+}
+
+
+div.mymodule.full.colour1, div.ramod_full.colour1 h3 {
+    background: var(--colour1);
+}
+div.mymodule.full.colour2, div.ramod_full.colour2 h3 {
+    background: var(--colour2);
+}
+div.mymodule.full.colour3, div.ramod_full.colour3 h3 {
+    background: var(--colour3);
+}
+div.mymodule.full.colour4, div.ramod_full.colour4 h3 {
+    background: var(--colour4);
+}
+div.mymodule.full.colour5, div.ramod_full.colour5 h3 {
+    background: var(--colour5);
+}
+div.mymodule.full.colour6, div.ramod_full.colour6 h3 {
+    background: var(--colour6);
+}
+div.mymodule.full.colour7, div.ramod_full.colour7 h3 {
+    background: var(--colour7);
+}
+div.mymodule.full.gray10, div.ramod_full.gray10 h3 {
+    background: var(--gray10);
+}
+div.mymodule.full.gray10, div.ramod_full.gray10 h3 {
+    background: var(--gray10);
+}
+div.mymdiv.mymodule.full.gray10, div.ramod_full.gray10 h3 {
+    background: var(--gray10);
+}
+div.mymodule.full.gray10, div.ramod_full.gray10 h3 {
+    background: var(--gray10);
+}
+div.mymodule.full.gray20, div.ramod_full.gray20 h3 {
+    background: var(--gray20);
+}
+div.mymodule.full.gray30, div.ramod_full.gray30 h3 {
+    background: var(--gray30);
+}
+div.mymodule.full.gray40, div.ramod_full.gray40 h3 {
+    background: var(--gray40);
+}
+div.mymodule.full.gray50, div.ramod_full.gray50 h3 {
+    background: var(--gray50);
+}
+div.mymodule.full.gray60, div.ramod_full.gray60 h3 {
+    background: var(--gray60);
+}
+div.mymodule.full.gray70, div.ramod_full.gray70 h3 {
+    background: var(--gray70);
+}
+div.mymodule.full.gray80, div.ramod_full.gray80 h3 {
+    background: var(--gray80);
+}
+div.mymodule.full.gray90, div.ramod_full.gray90 h3 {
+    background: var(--gray90);
+}
+
+div.mymodule.full.warning, div.ramod_full.warning h3 {
+    background: var(--warning);
+}
+
+
+
+div.mymodule.full.colour1  {
+    border-color: var(--colour1);
+}
+div.mymodule.full.colour2  {
+    border-color: var(--colour2);
+}
+div.mymodule.full.colour3  {
+    border-color: var(--colour3);
+}
+div.mymodule.full.colour4  {
+    border-color: var(--colour4);
+}
+div.mymodule.full.colour5  {
+    border-color: var(--colour5);
+}
+div.mymodule.full.colour6  {
+    border-color: var(--colour6);
+}
+div.mymodule.full.colour7  {
+    border-color: var(--colour7);
+}
+
+div.mymodule.full.gray10  {
+    border-color: var(--gray10);
+}
+div.mymodule.full.gray20  {
+    border-color: var(--gray20);
+}
+div.mymodule.full.gray30  {
+    border-color: var(--gray30);
+}
+div.mymodule.full.gray40  {
+    border-color: var(--gray40);
+}
+div.mymodule.full.gray50  {
+    border-color: var(--gray50);
+}
+div.mymodule.full.gray60  {
+    border-color: var(--gray60);
+}
+div.mymodule.full.gray70  {
+    border-color: var(--gray70);
+}
+div.mymodule.full.gray80  {
+    border-color: var(--gray80);
+}
+div.mymodule.full.gray90  {
+    border-color: var(--gray90);
+}
+div.mymodule.full.warning  {
+    border-color: var(--warning);
+}
