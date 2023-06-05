@@ -213,25 +213,25 @@ div.mymodule.heading h3{
 
 /* set heading colours */
 div.mymodule.heading.colour1 h3 {
-    background: var(--colour1);
+    background: var(--mycolour1);
 }
 div.mymodule.heading.colour2 h3 {
-    background: var(--colour2);
+    background: var(--mycolour2);
 }
 div.mymodule.heading.colour3 h3 {
-    background: var(--colour3);
+    background: var(--mycolour3);
 }
 div.mymodule.heading.colour4 h3 {
-    background: var(--colour4);
+    background: var(--mycolour4);
 }
 div.mymodule.heading.colour5 h3 {
-    background: var(--colour5);
+    background: var(--mycolour5);
 }
 div.mymodule.heading.colour6 h3 {
-    background: var(--colour6);
+    background: var(--mycolour6);
 }
 div.mymodule.heading.colour7 h3 {
-    background: var(--colour7);
+    background: var(--mycolour7);
 }
 
 div.mymodule.heading.gray10 h3 {
@@ -268,25 +268,25 @@ div.mymodule.heading.warning h3 {
 /* outline set colours*/
 
 div.mymodule.outline.colour1 {
-    border-color: var(--colour1);
+    border-color: var(--mycolour1);
 }
 div.mymodule.outline.colour2 {
-    border-color: var(--colour2);
+    border-color: var(--mycolour2);
 }
 div.mymodule.outline.colour3 {
-    border-color: var(--colour3);
+    border-color: var(--mycolour3);
 }
 div.mymodule.outline.colour4 {
-    border-color: var(--colour4);
+    border-color: var(--mycolour4);
 }
 div.mymodule.outline.colour5 {
-    border-color: var(--colour5);
+    border-color: var(--mycolour5);
 }
 div.mymodule.outline.colour6 {
-    border-color: var(--colour6);
+    border-color: var(--mycolour6);
 }
 div.mymodule.outline.colour7 {
-    border-color: var(--colour7);
+    border-color: var(--mycolour7);
 }
 
 div.mymodule.outline.gray10 {
@@ -321,25 +321,25 @@ div.mymodule.outline.warning {
 }
 
 div.mymodule.outline.colour1 h3 {
-    background: var(--colour1);
+    background: var(--mycolour1);
 }
 div.mymodule.outline.colour2 h3 {
-    background: var(--colour2);
+    background: var(--mycolour2);
 }
 div.mymodule.outline.colour3 h3 {
-    background: var(--colour3);
+    background: var(--mycolour3);
 }
 div.mymodule.outline.colour4 h3 {
-    background: var(--colour4);
+    background: var(--mycolour4);
 }
 div.mymodule.outline.colour5 h3 {
-    background: var(--colour5);
+    background: var(--mycolour5);
 }
 div.mymodule.outline.colour6 h3 {
-    background: var(--colour6);
+    background: var(--mycolour6);
 }
 div.mymodule.outline.colour7 h3 {
-    background: var(--colour7);
+    background: var(--mycolour7);
 }
 
 div.mymodule.outline.gray10 h3 {
@@ -375,25 +375,25 @@ div.mymodule.outline.warning h3 {
 
 
 div.mymodule.full.colour1, div.ramod_full.colour1 h3 {
-    background: var(--colour1);
+    background: var(--mycolour1);
 }
 div.mymodule.full.colour2, div.ramod_full.colour2 h3 {
-    background: var(--colour2);
+    background: var(--mycolour2);
 }
 div.mymodule.full.colour3, div.ramod_full.colour3 h3 {
-    background: var(--colour3);
+    background: var(--mycolour3);
 }
 div.mymodule.full.colour4, div.ramod_full.colour4 h3 {
-    background: var(--colour4);
+    background: var(--mycolour4);
 }
 div.mymodule.full.colour5, div.ramod_full.colour5 h3 {
-    background: var(--colour5);
+    background: var(--mycolour5);
 }
 div.mymodule.full.colour6, div.ramod_full.colour6 h3 {
-    background: var(--colour6);
+    background: var(--mycolour6);
 }
 div.mymodule.full.colour7, div.ramod_full.colour7 h3 {
-    background: var(--colour7);
+    background: var(--mycolour7);
 }
 div.mymodule.full.gray10, div.ramod_full.gray10 h3 {
     background: var(--gray10);
@@ -439,25 +439,25 @@ div.mymodule.full.warning, div.ramod_full.warning h3 {
 
 
 div.mymodule.full.colour1  {
-    border-color: var(--colour1);
+    border-color: var(--mycolour1);
 }
 div.mymodule.full.colour2  {
-    border-color: var(--colour2);
+    border-color: var(--mycolour2);
 }
 div.mymodule.full.colour3  {
-    border-color: var(--colour3);
+    border-color: var(--mycolour3);
 }
 div.mymodule.full.colour4  {
-    border-color: var(--colour4);
+    border-color: var(--mycolour4);
 }
 div.mymodule.full.colour5  {
-    border-color: var(--colour5);
+    border-color: var(--mycolour5);
 }
 div.mymodule.full.colour6  {
-    border-color: var(--colour6);
+    border-color: var(--mycolour6);
 }
 div.mymodule.full.colour7  {
-    border-color: var(--colour7);
+    border-color: var(--mycolour7);
 }
 
 div.mymodule.full.gray10  {
@@ -489,4 +489,11 @@ div.mymodule.full.gray90  {
 }
 div.mymodule.full.warning  {
     border-color: var(--warning);
+}
+
+
+
+/* Astroid Template Overrides */
+#select_contact {
+    width:auto !important;
 }

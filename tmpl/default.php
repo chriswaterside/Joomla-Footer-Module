@@ -59,13 +59,13 @@ class myfooter {
         $colour6 = $params->get('color6');
         $colour7 = $params->get('color7');
         $text = ":root { "
-                . " --colour1: " . $colour1 . ";"
-                . " --colour2:" . $colour2 . ";"
-                . " --colour3: " . $colour3 . ";"
-                . " --colour4: " . $colour4 . ";"
-                . " --colour5: " . $colour5 . ";"
-                . " --colours: " . $colour6 . ";"
-                . " --colour7: " . $colour7 . ";}";
+                . " --mycolour1: " . $colour1 . ";"
+                . " --mycolour2: " . $colour2 . ";"
+                . " --mycolour3: " . $colour3 . ";"
+                . " --mycolour4: " . $colour4 . ";"
+                . " --mycolour5: " . $colour5 . ";"
+                . " --mycolours: " . $colour6 . ";"
+                . " --mycolour7: " . $colour7 . ";}";
         $document->addStyleDeclaration($text);
     }
 
