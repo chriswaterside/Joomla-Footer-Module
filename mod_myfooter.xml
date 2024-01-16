@@ -2,12 +2,12 @@
 <extension type="module" version="4.0" client="site" method="upgrade">
     <name>My Footer</name>
     <author>Chris Vaughan</author>
-    <creationDate>22 December 2023</creationDate>
-    <copyright>Copyright (C) 2015-2023 cevsystems.co.uk</copyright>
+    <creationDate>16 January 2024</creationDate>
+    <copyright>Copyright (C) 2015-2024 cevsystems.co.uk</copyright>
     <license>This extension in released under the GNU/GPL License</license>
     <authorEmail>chris@cevsystems.co.uk</authorEmail>
     <authorUrl>www.cevsystems.co.uk</authorUrl>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <description>This module displays a general footer module</description>
   <updateservers>
         <server type="extension" name="My Footer Module" priority="1">https://raw.githubusercontent.com/chriswaterside/Joomla-Update-Server/main/myfooter.xml</server>
